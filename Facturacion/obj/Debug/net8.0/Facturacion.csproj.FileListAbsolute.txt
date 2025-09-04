@@ -1,0 +1,7 @@
+C:\Users\Valentino\dev\source\repos\Facturacion\Facturacion\obj\Debug\net8.0\Facturacion.csproj.AssemblyReference.cache
+C:\Users\Valentino\dev\source\repos\Facturacion\Facturacion\obj\Debug\net8.0\Facturacion.Properties.Resources.resources
+C:\Users\Valentino\dev\source\repos\Facturacion\Facturacion\obj\Debug\net8.0\Facturacion.csproj.GenerateResource.cache
+C:\Users\Valentino\dev\source\repos\Facturacion\Facturacion\obj\Debug\net8.0\Facturacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Valentino\dev\source\repos\Facturacion\Facturacion\obj\Debug\net8.0\Facturacion.AssemblyInfoInputs.cache
+C:\Users\Valentino\dev\source\repos\Facturacion\Facturacion\obj\Debug\net8.0\Facturacion.AssemblyInfo.cs
+C:\Users\Valentino\dev\source\repos\Facturacion\Facturacion\obj\Debug\net8.0\Facturacion.csproj.CoreCompileInputs.cache
