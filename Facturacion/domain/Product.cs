@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Facturacion.domain
 {
-    internal class Neighborhood
+    public class Product
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public List<Street> Streets { get; set; }
+        public decimal Price { get; set; }
     }
 }

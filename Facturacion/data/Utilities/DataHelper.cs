@@ -6,15 +6,19 @@ using System.Text;
 using System.Data;
 using System.Threading.Tasks;
 
-namespace Facturacion.data
+namespace Facturacion.data.Utilities
 {
     public class DataHelper
     {
-        private static DataHelper _instance;
+        private static DataHelper? _instance;
         private SqlConnection _connection;
-        public DataHelpaer()
+        public DataHelper()
         {
             _connection = new SqlConnection(Properties.Resources.connection);
+        }
+        public SqlConnection GetConnection()
+        {
+            return _connection;
         }
         public static DataHelper GetInstance() 
         {
@@ -24,9 +28,9 @@ namespace Facturacion.data
             }
             return _instance;
         }
-        public DataTable ExecuteSPquery(string sp, List<ParameterSP>? parameter = null)
+        public DataTable ? ExecuteSPquery(string sp, List<ParameterSP>? parameter = null)
         {
-            DataTable dt = new DataTable();
+            DataTable ? dt = new DataTable();
             try
             {
                 _connection.Open();
@@ -54,7 +58,6 @@ namespace Facturacion.data
                 }
             }
             return dt;
-
         }
     }
 }

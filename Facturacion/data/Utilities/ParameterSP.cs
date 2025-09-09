@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Facturacion.data
+namespace Facturacion.data.Utilities
 {
     public class ParameterSP
     {

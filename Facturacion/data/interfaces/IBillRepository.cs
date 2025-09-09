@@ -5,13 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Facturacion.data
+namespace Facturacion.data.interfaces
 {
     public interface IBillRepository
     {
         List<Bill> GetAllBill();
         Bill GetBillById(int id);
-        bool CreateBill(Bill bill);
+        bool SaveBill(Bill bill);
         bool UpdateBill(Bill bill);
         bool DeleteBill(int id);
     }

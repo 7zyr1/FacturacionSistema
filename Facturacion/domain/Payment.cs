@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Facturacion.domain
 {
-    internal class Payment
+    public class Payment
     {
         public int Id { get; set; }
         public string Method { get; set; }
