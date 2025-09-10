@@ -5,3 +5,4 @@ C:\Users\Valentino\dev\source\repos\Facturacion\Facturacion\obj\Debug\net8.0\Fac
 C:\Users\Valentino\dev\source\repos\Facturacion\Facturacion\obj\Debug\net8.0\Facturacion.AssemblyInfoInputs.cache
 C:\Users\Valentino\dev\source\repos\Facturacion\Facturacion\obj\Debug\net8.0\Facturacion.AssemblyInfo.cs
 C:\Users\Valentino\dev\source\repos\Facturacion\Facturacion\obj\Debug\net8.0\Facturacion.csproj.CoreCompileInputs.cache
+C:\Users\Valentino\dev\source\repos\Facturacion\Facturacion\obj\Debug\net8.0\Facturacion.sourcelink.json

@@ -15,9 +15,54 @@ namespace Facturacion.data.Repositories
     {
         public required IClientRepository _clientRepository;
         public required IPaymentRepository _paymentRepository; 
+        public required IDetailRepository _detailRepository;
         public bool SaveBill(Bill bill)
         {
-            throw new NotImplementedException();
+            bool aux = true;
+            SqlConnection cnn = DataHelper.GetInstance().GetConnection();
+            SqlTransaction t = null;
+            try
+            {
+                cnn.Open();
+                t = cnn.BeginTransaction();
+                SqlCommand cmd = new SqlCommand("Sp_INSERT_BILL", cnn, t);
+                cmd.CommandType = CommandType.StoredProcedure;
+                SqlParameter p = new SqlParameter("@id_factura", SqlDbType.Int);
+                p.Direction = ParameterDirection.Output;
+                cmd.Parameters.Add(p);
+                cmd.Parameters.AddWithValue("@fecha", bill.dateTime);
+                cmd.Parameters.AddWithValue("@id_forma_pago", bill.Payment.Id);
+                cmd.Parameters.AddWithValue("@id_cliente", bill.Client.id);
+                cmd.ExecuteNonQuery();
+                int billId = (int)p.Value;
+
+                foreach (var det in bill.Details)
+                {
+                    SqlCommand cmd2 = new SqlCommand("Sp_INSERT_BILL_ITEM", cnn, t);
+                    cmd2.CommandType = CommandType.StoredProcedure;
+                    cmd2.Parameters.AddWithValue("@id_factura", billId);
+                    cmd2.Parameters.AddWithValue("@id_articulo", det.Product.Id);
+                    cmd2.Parameters.AddWithValue("@cantidad", det.Quantity);
+                    cmd2.ExecuteNonQuery();
+                }
+                t.Commit();
+            }
+            catch (Exception ex)
+            {
+                aux = false;
+                if (t != null)
+                {
+                    t.Rollback();
+                }
+            }
+            finally
+            {
+                if (cnn.State == ConnectionState.Open)
+                {
+                    cnn.Close();
+                }
+            }
+            return aux;
         }
 
         public bool DeleteBill(int id)
@@ -28,7 +73,7 @@ namespace Facturacion.data.Repositories
         public List<Bill> GetAllBill()
         {
             List<Bill> bills = new List<Bill>();
-            DataTable? dt = DataHelper.GetInstance().ExecuteSPquery(""); // Falta el nombre del SP
+            DataTable? dt = DataHelper.GetInstance().ExecuteSPquery("Sp_GET_ALL_BILLS"); // Falta el nombre del SP
             if (dt != null)
             {
                 foreach (DataRow r in dt.Rows)
@@ -36,11 +81,11 @@ namespace Facturacion.data.Repositories
                     Bill bill = new Bill()
                     {
 
-                        Id = (int)r["Id"],
-                        dateTime = (DateTime)r["DateTime"],
-                        Client = _clientRepository.GetClientById((int)r["ClientId"]),
-                        Payment = _paymentRepository.GetPaymentById((int)r["PaymentId"])
-
+                        Id = (int)r["id_factura"],
+                        dateTime = (DateTime)r["fecha"],
+                        Client = _clientRepository.GetClientById((int)r["id_cliente"]),
+                        Payment = _paymentRepository.GetPaymentById((int)r["id_payment"]),
+                        Details = _detailRepository.GetDetailByBillId((int)r["id_factura"])
                     };
                     bills.Add(bill);
                 }

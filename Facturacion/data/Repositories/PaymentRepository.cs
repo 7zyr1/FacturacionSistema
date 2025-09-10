@@ -20,13 +20,13 @@ namespace Facturacion.data.Repositories
                     Name = "@id",
                     Value = id,
                 };
-                var dt = DataHelper.GetInstance().ExecuteSPquery(" ", parameters); //crear SP
+                var dt = DataHelper.GetInstance().ExecuteSPquery("Sp_GET_PAYMENT_BY_ID", parameters); //crear SP
                 if (dt != null && dt.Rows.Count > 0) 
                 {
                     Payment payment = new Payment()
                     {
-                        Id = (int)dt.Rows[0]["@id"],
-                        Method = (string)dt.Rows[0]["@name"]
+                        Id = (int)dt.Rows[0]["id_forma_pago"],
+                        Method = (string)dt.Rows[0]["nombre"]
                     };
                     return payment;
                 }

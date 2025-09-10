@@ -8,7 +8,7 @@ namespace Facturacion.data.Utilities
 {
     public class ParameterSP
     {
-        public string Name { get; set; }
-        public object Value { get; set; }
+        public string? Name { get; set; }
+        public object? Value { get; set; }
     }
 }

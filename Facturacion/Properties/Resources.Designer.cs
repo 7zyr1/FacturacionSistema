@@ -61,7 +61,7 @@ namespace Facturacion.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Data Source=LAPTOP-7KUNN01M\SQLEXPRESS;Initial Catalog=facturacionDB;Integrated Security=True;Encrypt=False.
+        ///   Busca una cadena traducida similar a Data Source=.\SQLEXPRESS;Initial Catalog=Facturacion_Db;Integrated Security=True;Encrypt=False.
         /// </summary>
         internal static string connection {
             get {

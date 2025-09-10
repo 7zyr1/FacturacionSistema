@@ -16,7 +16,7 @@ namespace Facturacion.data.Repositories
         public List<Product> GetAllProducts()
         {
             List<Product> products = new List<Product>();
-            var dt = DataHelper.GetInstance().ExecuteSPquery("SP_GetAllProducts"); //crear SP
+            var dt = DataHelper.GetInstance().ExecuteSPquery("Sp_GET_ALL_PRODUCTS"); //crear SP
             if (dt != null)
             {
                 foreach (DataRow r in dt.Rows)
@@ -47,14 +47,15 @@ namespace Facturacion.data.Repositories
                             Value = id
                         }
                     };
-            var dt = DataHelper.GetInstance().ExecuteSPquery("SP_GetProductById", parameters); //crear SP
+            var dt = DataHelper.GetInstance().ExecuteSPquery("Sp_GET_PRODUCT_BY_ID", parameters); //crear SP
             if (dt != null && dt.Rows.Count > 0)
             {
                 Product product = new Product()
                 {
                     Id = (int)dt.Rows[0]["Id"],
                     Name = (string)dt.Rows[0]["Name"],
-                    Price = (decimal)dt.Rows[0]["Price"]
+                    Price = (decimal)dt.Rows[0]["Price"],
+                    Stock = (int)dt.Rows[0]["Stock"]
                 };
                 return product;
             }

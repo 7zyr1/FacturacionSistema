@@ -118,6 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="connection" xml:space="preserve">
-    <value>Data Source=LAPTOP-7KUNN01M\SQLEXPRESS;Initial Catalog=facturacionDB;Integrated Security=True;Encrypt=False</value>
+    <value>Data Source=.\SQLEXPRESS;Initial Catalog=Facturacion_Db;Integrated Security=True;Encrypt=False</value>
   </data>
 </root>

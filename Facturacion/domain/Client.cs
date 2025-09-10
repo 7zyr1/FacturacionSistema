@@ -10,7 +10,6 @@ namespace Facturacion.domain
     {
         public int id { get; set; }
         public string name { get; set; }
-        public Street street { get; set; }
         public int phone { get; set; }
     }
 }
