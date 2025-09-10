@@ -10,10 +10,11 @@ namespace Facturacion.services
 {
     public class BillService : IBillService
     {
-        private IBillRepository _billRepository;
+        private readonly IBillRepository _billRepository;
+
         public BillService(IBillRepository billRepository)
         {
-            _billRepository = billRepository;
+            _billRepository = billRepository ?? throw new ArgumentNullException(nameof(billRepository));
         }
         public bool SaveBill(Bill bill)
         {

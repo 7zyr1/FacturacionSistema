@@ -10,6 +10,6 @@ namespace Facturacion.data.interfaces
 {
     public interface IClientRepository
     {
-        Client? GetClientById(int id);
+        Client GetClientById(int id);
     }
 }

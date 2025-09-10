@@ -25,7 +25,8 @@ namespace Facturacion.data.Repositories
                     {
                         Id = (int)r["Id"],
                         Name = (string)r["Name"],
-                        Price = (decimal)r["Price"]
+                        Price = Convert.ToDecimal(r["Price"]),
+                        Stock = (int)r["Stock"]
                     };
                     products.Add(product);
                 }
@@ -54,7 +55,7 @@ namespace Facturacion.data.Repositories
                 {
                     Id = (int)dt.Rows[0]["Id"],
                     Name = (string)dt.Rows[0]["Name"],
-                    Price = (decimal)dt.Rows[0]["Price"],
+                    Price =Convert.ToDecimal(dt.Rows[0]["Price"]),
                     Stock = (int)dt.Rows[0]["Stock"]
                 };
                 return product;

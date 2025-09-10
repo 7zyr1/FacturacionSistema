@@ -13,14 +13,19 @@ namespace Facturacion.data.Repositories
 {
     public class BillRepository : IBillRepository
     {
-        public required IClientRepository _clientRepository;
-        public required IPaymentRepository _paymentRepository; 
-        public required IDetailRepository _detailRepository;
+        public IClientRepository _clientRepository;
+        public IPaymentRepository _paymentRepository; 
+        public IDetailRepository _detailRepository;
         public bool SaveBill(Bill bill)
         {
+            if (bill == null) throw new ArgumentNullException(nameof(bill));
+            if (bill.Client == null) throw new ArgumentNullException(nameof(bill.Client));
+            if (bill.Payment == null) throw new ArgumentNullException(nameof(bill.Payment));
+            if (bill.Details == null || !bill.Details.Any()) throw new ArgumentException("El detalle no puede ser nulo", nameof(bill.Details));
+
             bool aux = true;
             SqlConnection cnn = DataHelper.GetInstance().GetConnection();
-            SqlTransaction t = null;
+            SqlTransaction? t = null;
             try
             {
                 cnn.Open();
@@ -38,6 +43,8 @@ namespace Facturacion.data.Repositories
 
                 foreach (var det in bill.Details)
                 {
+                    if (det.Product == null) throw new ArgumentNullException(nameof(det.Product), "El detalle no puede ser nulo");
+
                     SqlCommand cmd2 = new SqlCommand("Sp_INSERT_BILL_ITEM", cnn, t);
                     cmd2.CommandType = CommandType.StoredProcedure;
                     cmd2.Parameters.AddWithValue("@id_factura", billId);
@@ -47,7 +54,7 @@ namespace Facturacion.data.Repositories
                 }
                 t.Commit();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 aux = false;
                 if (t != null)
@@ -84,7 +91,7 @@ namespace Facturacion.data.Repositories
                         Id = (int)r["id_factura"],
                         dateTime = (DateTime)r["fecha"],
                         Client = _clientRepository.GetClientById((int)r["id_cliente"]),
-                        Payment = _paymentRepository.GetPaymentById((int)r["id_payment"]),
+                        Payment = _paymentRepository.GetPaymentById((int)r["id_forma_pago"]),
                         Details = _detailRepository.GetDetailByBillId((int)r["id_factura"])
                     };
                     bills.Add(bill);

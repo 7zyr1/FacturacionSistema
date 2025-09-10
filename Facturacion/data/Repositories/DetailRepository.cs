@@ -12,7 +12,7 @@ namespace Facturacion.data.Repositories
 {
     public class DetailRepository : IDetailRepository
     {
-        public required IProductRepository _productRepository { get; set; }
+        public IProductRepository _productRepository { get; set; }
 
         //public bool DeleteDetail(int id)
         //{
@@ -42,7 +42,7 @@ namespace Facturacion.data.Repositories
                     {
                         Id = (int)row["id_detalle"],
                         Quantity = (int)row["cantidad"],
-                        Price = (decimal)row["subtotal"],
+                        //Price = Convert.ToDecimal(row["precio"]),
                         Product = _productRepository.GetProductById((int)row["id_articulo"])
                     };
                     details.Add(detail);

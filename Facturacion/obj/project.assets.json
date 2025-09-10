@@ -1755,6 +1755,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.Data.SqlClient >= 6.1.1",
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 8.0.2",
       "System.Data.SqlClient >= 4.9.0"
     ]
   },
@@ -1811,6 +1812,10 @@
           "Microsoft.Data.SqlClient": {
             "target": "Package",
             "version": "[6.1.1, )"
+          },
+          "Microsoft.Extensions.DependencyInjection.Abstractions": {
+            "target": "Package",
+            "version": "[8.0.2, )"
           },
           "System.Data.SqlClient": {
             "target": "Package",
