@@ -322,3 +322,70 @@ BEGIN
     WHERE df.id_factura = @id_factura
 END
 GO
+
+--INSERTS
+-- Insertar formas de pago
+INSERT INTO FormasPago (nombre) VALUES 
+('Efectivo'),
+('Tarjeta de Crédito'),
+('Tarjeta de Débito'),
+('Transferencia Bancaria'),
+('Cheque')
+
+-- Insertar clientes
+INSERT INTO Clientes (nombre, telefono) VALUES 
+('Juan Pérez', 123456789),
+('María García', 987654321),
+('Carlos López', 555123456),
+('Ana Martínez', 444987654),
+('Pedro Rodríguez', 333555789)
+
+-- Insertar artículos
+INSERT INTO Articulos (nombre, pre_unitario, stock) VALUES 
+('Laptop HP 15"', 15000, 25),
+('Mouse Inalámbrico', 500, 100),
+('Teclado Mecánico', 1200, 50),
+('Monitor 24" LED', 8000, 30),
+('Impresora Laser', 4500, 15),
+('Tablet Samsung', 7000, 20),
+('Auriculares Bluetooth', 800, 75),
+('Disco Duro Externo 1TB', 2000, 40),
+('Memoria USB 32GB', 300, 200),
+('Router WiFi', 1500, 35)
+
+-- Insertar facturas
+INSERT INTO Factura (fecha, id_forma_pago, id_cliente) VALUES 
+('2024-01-15 10:30:00', 2, 1),
+('2024-01-16 14:45:00', 1, 3),
+('2024-01-17 16:20:00', 3, 2),
+('2024-01-18 11:15:00', 2, 4),
+('2024-01-19 09:30:00', 4, 5)
+
+-- Insertar detalles de facturas
+-- Factura 1
+INSERT INTO DetalleFacturas (id_factura, id_articulo, cantidad) VALUES 
+(1, 1, 1),  -- Laptop
+(1, 2, 2),  -- Mouse
+(1, 3, 1)   -- Teclado
+
+-- Factura 2
+INSERT INTO DetalleFacturas (id_factura, id_articulo, cantidad) VALUES 
+(2, 4, 2),  -- Monitor
+(2, 5, 1)   -- Impresora
+
+-- Factura 3
+INSERT INTO DetalleFacturas (id_factura, id_articulo, cantidad) VALUES 
+(3, 6, 1),  -- Tablet
+(3, 7, 3),  -- Auriculares
+(3, 8, 1)   -- Disco Duro
+
+-- Factura 4
+INSERT INTO DetalleFacturas (id_factura, id_articulo, cantidad) VALUES 
+(4, 9, 5),  -- Memoria USB
+(4, 10, 1)  -- Router
+
+-- Factura 5
+INSERT INTO DetalleFacturas (id_factura, id_articulo, cantidad) VALUES 
+(5, 2, 1),  -- Mouse
+(5, 7, 2),  -- Auriculares
+(5, 9, 3)   -- Memoria USB

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|c:\\users\\valentino\\dev\\source\\repos\\facturacion\\facturacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|solutionrelative:facturacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|c:\\users\\valentino\\dev\\source\\repos\\facturacion\\facturacion\\data\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|solutionrelative:facturacion\\data\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|c:\\users\\valentino\\dev\\source\\repos\\facturacion\\facturacion\\data\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|solutionrelative:facturacion\\data\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|c:\\users\\valentino\\dev\\source\\repos\\facturacion\\facturacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|solutionrelative:facturacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|c:\\users\\valentino\\dev\\source\\repos\\facturacion\\facturacion\\data\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -121,12 +121,8 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DetailRepository.cs",
               "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\Repositories\\DetailRepository.cs",
               "RelativeDocumentMoniker": "Facturacion\\data\\Repositories\\DetailRepository.cs",
@@ -134,8 +130,7 @@
               "RelativeToolTip": "Facturacion\\data\\Repositories\\DetailRepository.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAAADgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T23:41:08.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T23:41:08.895Z"
             },
             {
               "$type": "Document",
@@ -147,12 +142,11 @@
               "RelativeToolTip": "Facturacion\\services\\IBillService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T04:20:29.914Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-10T04:20:29.914Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "BillRepository.cs",
               "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\Repositories\\BillRepository.cs",
               "RelativeDocumentMoniker": "Facturacion\\data\\Repositories\\BillRepository.cs",
@@ -160,8 +154,7 @@
               "RelativeToolTip": "Facturacion\\data\\Repositories\\BillRepository.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAgwCMAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T01:23:57.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-04T01:23:57.551Z"
             },
             {
               "$type": "Document",
@@ -173,29 +166,36 @@
               "RelativeToolTip": "Facturacion\\data\\Repositories\\ClientRepository.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAuwCYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T13:53:52.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-04T13:53:52.217Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Facturacion\\data\\Repositories\\ProductRepository.cs",
               "ToolTip": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\Repositories\\ProductRepository.cs",
               "RelativeToolTip": "Facturacion\\data\\Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAqwBsAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwB8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T04:12:45.609Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "WhenOpened": "2025-09-09T04:12:45.609Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\Program.cs",
+              "RelativeDocumentMoniker": "Facturacion\\Program.cs",
+              "ToolTip": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\Program.cs",
+              "RelativeToolTip": "Facturacion\\Program.cs",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAswN0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T02:44:40.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\interfaces\\IProductRepository.cs",
               "RelativeDocumentMoniker": "Facturacion\\data\\interfaces\\IProductRepository.cs",
@@ -203,21 +203,7 @@
               "RelativeToolTip": "Facturacion\\data\\interfaces\\IProductRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T04:07:34.02Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\Program.cs",
-              "RelativeDocumentMoniker": "Facturacion\\Program.cs",
-              "ToolTip": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\Program.cs",
-              "RelativeToolTip": "Facturacion\\Program.cs",
-              "ViewState": "AgIAANYAAAAAAAAAAAAswGoAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T02:44:40.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T04:07:34.02Z"
             },
             {
               "$type": "Document",
@@ -229,8 +215,7 @@
               "RelativeToolTip": "Facturacion\\domain\\Detail.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T03:21:13.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T03:21:13.699Z"
             },
             {
               "$type": "Document",
@@ -242,8 +227,7 @@
               "RelativeToolTip": "Facturacion\\data\\Repositories\\PaymentRepository.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAzwBoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T05:15:20.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T05:15:20.561Z"
             },
             {
               "$type": "Document",
@@ -255,8 +239,7 @@
               "RelativeToolTip": "Facturacion\\domain\\Payment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T00:55:33.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-04T00:55:33.322Z"
             },
             {
               "$type": "Document",
@@ -268,8 +251,7 @@
               "RelativeToolTip": "Facturacion\\services\\BillService.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAxwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T04:26:06.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-10T04:26:06.829Z"
             },
             {
               "$type": "Document",
@@ -281,8 +263,7 @@
               "RelativeToolTip": "Facturacion\\data\\interfaces\\IClientRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T01:50:36.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-04T01:50:36.813Z"
             },
             {
               "$type": "Document",
@@ -294,8 +275,7 @@
               "RelativeToolTip": "Facturacion\\domain\\Bill.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T03:46:34.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T03:46:34.181Z"
             },
             {
               "$type": "Document",
@@ -307,8 +287,7 @@
               "RelativeToolTip": "Facturacion\\data\\interfaces\\IBillRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T03:40:22.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T03:40:22.68Z"
             },
             {
               "$type": "Document",
@@ -320,8 +299,7 @@
               "RelativeToolTip": "Facturacion\\data\\Utilities\\ParameterSP.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T03:25:48.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T03:25:48.674Z"
             },
             {
               "$type": "Document",
@@ -333,8 +311,7 @@
               "RelativeToolTip": "Facturacion\\domain\\Client.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T13:28:31.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T13:28:31.411Z"
             },
             {
               "$type": "Document",
@@ -346,8 +323,7 @@
               "RelativeToolTip": "Facturacion\\data\\interfaces\\IDetailRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T23:40:15.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T23:40:15.866Z"
             },
             {
               "$type": "Document",
@@ -359,8 +335,7 @@
               "RelativeToolTip": "Facturacion\\domain\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T03:23:43.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T03:23:43.779Z"
             },
             {
               "$type": "Document",
@@ -372,8 +347,7 @@
               "RelativeToolTip": "Facturacion\\data\\interfaces\\IPaymentRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T05:10:26.923Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T05:10:26.923Z"
             },
             {
               "$type": "Document",
@@ -385,8 +359,7 @@
               "RelativeToolTip": "Facturacion\\data\\Utilities\\DataHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T03:00:14.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T03:00:14.664Z"
             },
             {
               "$type": "Document",
@@ -397,8 +370,7 @@
               "ToolTip": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\Properties\\Resources.resx",
               "RelativeToolTip": "Facturacion\\Properties\\Resources.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-09-03T03:18:21.165Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T03:18:21.165Z"
             },
             {
               "$type": "Document",
@@ -409,8 +381,15 @@
               "ToolTip": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\Facturacion.csproj",
               "RelativeToolTip": "Facturacion\\Facturacion.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-03T03:17:03.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T03:17:03.604Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             }
           ]
         }
