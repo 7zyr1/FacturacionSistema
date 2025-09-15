@@ -7,28 +7,44 @@
       "RelativeMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|solutionrelative:facturacion\\data\\repositories\\billrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|c:\\users\\valentino\\dev\\source\\repos\\facturacion\\facturacion\\data\\utilities\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|solutionrelative:facturacion\\data\\utilities\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|c:\\users\\valentino\\dev\\source\\repos\\facturacion\\facturacion\\data\\repositories\\detailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|solutionrelative:facturacion\\data\\repositories\\detailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|c:\\users\\valentino\\dev\\source\\repos\\facturacion\\facturacion\\data\\interfaces\\interface1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|solutionrelative:facturacion\\data\\interfaces\\interface1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|c:\\users\\valentino\\dev\\source\\repos\\facturacion\\facturacion\\domain\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|solutionrelative:facturacion\\domain\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|c:\\users\\valentino\\dev\\source\\repos\\facturacion\\facturacion\\data\\interfaces\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|solutionrelative:facturacion\\data\\interfaces\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|c:\\users\\valentino\\dev\\source\\repos\\facturacion\\facturacion\\services\\billservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|solutionrelative:facturacion\\services\\billservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|c:\\users\\valentino\\dev\\source\\repos\\facturacion\\facturacion\\services\\ibillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|solutionrelative:facturacion\\services\\ibillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|c:\\users\\valentino\\dev\\source\\repos\\facturacion\\facturacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|solutionrelative:facturacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|c:\\users\\valentino\\dev\\source\\repos\\facturacion\\facturacion\\data\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|solutionrelative:facturacion\\data\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|c:\\users\\valentino\\dev\\source\\repos\\facturacion\\facturacion\\facturacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|solutionrelative:facturacion\\facturacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|c:\\users\\valentino\\dev\\source\\repos\\facturacion\\facturacion\\data\\repositories\\detailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|solutionrelative:facturacion\\data\\repositories\\detailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|c:\\users\\valentino\\dev\\source\\repos\\facturacion\\facturacion\\obj\\debug\\net8.0\\facturacion.assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|solutionrelative:facturacion\\obj\\debug\\net8.0\\facturacion.assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|c:\\users\\valentino\\dev\\source\\repos\\facturacion\\facturacion\\data\\utilities\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|solutionrelative:facturacion\\data\\utilities\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|c:\\users\\valentino\\dev\\source\\repos\\facturacion\\facturacion\\data\\interfaces\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|solutionrelative:facturacion\\data\\interfaces\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|c:\\users\\valentino\\dev\\source\\repos\\facturacion\\facturacion\\data\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|solutionrelative:facturacion\\data\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|c:\\users\\valentino\\dev\\source\\repos\\facturacion\\facturacion\\data\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,24 +59,12 @@
       "RelativeMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|solutionrelative:facturacion\\domain\\detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|c:\\users\\valentino\\dev\\source\\repos\\facturacion\\facturacion\\services\\ibillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|solutionrelative:facturacion\\services\\ibillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|c:\\users\\valentino\\dev\\source\\repos\\facturacion\\facturacion\\domain\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|solutionrelative:facturacion\\domain\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|c:\\users\\valentino\\dev\\source\\repos\\facturacion\\facturacion\\services\\billservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|solutionrelative:facturacion\\services\\billservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|c:\\users\\valentino\\dev\\source\\repos\\facturacion\\facturacion\\data\\repositories\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|solutionrelative:facturacion\\data\\repositories\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|c:\\users\\valentino\\dev\\source\\repos\\facturacion\\facturacion\\domain\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|solutionrelative:facturacion\\domain\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9308C0A8-4E81-47E1-924A-F8A3C4BF4814}|Facturacion\\Facturacion.csproj|c:\\users\\valentino\\dev\\source\\repos\\facturacion\\facturacion\\data\\interfaces\\ibillrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -126,20 +130,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Interface1.cs",
-              "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\interfaces\\Interface1.cs",
-              "RelativeDocumentMoniker": "Facturacion\\data\\interfaces\\Interface1.cs",
-              "ToolTip": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\interfaces\\Interface1.cs*",
-              "RelativeToolTip": "Facturacion\\data\\interfaces\\Interface1.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T19:22:58.074Z",
-              "EditorCaption": ""
+              "DocumentIndex": 6,
+              "Title": "Facturacion.csproj",
+              "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\Facturacion.csproj",
+              "RelativeDocumentMoniker": "Facturacion\\Facturacion.csproj",
+              "ToolTip": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\Facturacion.csproj",
+              "RelativeToolTip": "Facturacion\\Facturacion.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-11T19:52:52.517Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "IBillService.cs",
               "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\services\\IBillService.cs",
               "RelativeDocumentMoniker": "Facturacion\\services\\IBillService.cs",
@@ -151,155 +154,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BillRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\Repositories\\BillRepository.cs",
-              "RelativeDocumentMoniker": "Facturacion\\data\\Repositories\\BillRepository.cs",
-              "ToolTip": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\Repositories\\BillRepository.cs*",
-              "RelativeToolTip": "Facturacion\\data\\Repositories\\BillRepository.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T01:23:57.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ClientRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\Repositories\\ClientRepository.cs",
-              "RelativeDocumentMoniker": "Facturacion\\data\\Repositories\\ClientRepository.cs",
-              "ToolTip": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\Repositories\\ClientRepository.cs",
-              "RelativeToolTip": "Facturacion\\data\\Repositories\\ClientRepository.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAuwCYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T13:53:52.217Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "Facturacion\\data\\Repositories\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\Repositories\\ProductRepository.cs",
-              "RelativeToolTip": "Facturacion\\data\\Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAqwB8AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T04:12:45.609Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\Program.cs",
               "RelativeDocumentMoniker": "Facturacion\\Program.cs",
               "ToolTip": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\Program.cs",
               "RelativeToolTip": "Facturacion\\Program.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAYwN0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAN0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T02:44:40.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DataHelper.cs",
-              "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\Utilities\\DataHelper.cs",
-              "RelativeDocumentMoniker": "Facturacion\\data\\Utilities\\DataHelper.cs",
-              "ToolTip": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\Utilities\\DataHelper.cs",
-              "RelativeToolTip": "Facturacion\\data\\Utilities\\DataHelper.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T03:00:14.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T02:44:40.133Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IClientRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\interfaces\\IClientRepository.cs",
-              "RelativeDocumentMoniker": "Facturacion\\data\\interfaces\\IClientRepository.cs",
-              "ToolTip": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\interfaces\\IClientRepository.cs",
-              "RelativeToolTip": "Facturacion\\data\\interfaces\\IClientRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T01:50:36.813Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DetailRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\Repositories\\DetailRepository.cs",
-              "RelativeDocumentMoniker": "Facturacion\\data\\Repositories\\DetailRepository.cs",
-              "ToolTip": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\Repositories\\DetailRepository.cs",
-              "RelativeToolTip": "Facturacion\\data\\Repositories\\DetailRepository.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAADgAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T23:41:08.895Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\interfaces\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "Facturacion\\data\\interfaces\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\interfaces\\IProductRepository.cs",
-              "RelativeToolTip": "Facturacion\\data\\interfaces\\IProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T04:07:34.02Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Detail.cs",
-              "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\domain\\Detail.cs",
-              "RelativeDocumentMoniker": "Facturacion\\domain\\Detail.cs",
-              "ToolTip": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\domain\\Detail.cs",
-              "RelativeToolTip": "Facturacion\\domain\\Detail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T03:21:13.699Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PaymentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\Repositories\\PaymentRepository.cs",
-              "RelativeDocumentMoniker": "Facturacion\\data\\Repositories\\PaymentRepository.cs",
-              "ToolTip": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\Repositories\\PaymentRepository.cs",
-              "RelativeToolTip": "Facturacion\\data\\Repositories\\PaymentRepository.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBoAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T05:15:20.561Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Payment.cs",
-              "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\domain\\Payment.cs",
-              "RelativeDocumentMoniker": "Facturacion\\domain\\Payment.cs",
-              "ToolTip": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\domain\\Payment.cs",
-              "RelativeToolTip": "Facturacion\\domain\\Payment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T00:55:33.322Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "BillService.cs",
               "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\services\\BillService.cs",
               "RelativeDocumentMoniker": "Facturacion\\services\\BillService.cs",
               "ToolTip": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\services\\BillService.cs",
               "RelativeToolTip": "Facturacion\\services\\BillService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAxwB0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-10T04:26:06.829Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 2,
               "Title": "Bill.cs",
               "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\domain\\Bill.cs",
               "RelativeDocumentMoniker": "Facturacion\\domain\\Bill.cs",
@@ -311,7 +190,141 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BillRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\Repositories\\BillRepository.cs",
+              "RelativeDocumentMoniker": "Facturacion\\data\\Repositories\\BillRepository.cs",
+              "ToolTip": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\Repositories\\BillRepository.cs",
+              "RelativeToolTip": "Facturacion\\data\\Repositories\\BillRepository.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T01:23:57.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DetailRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\Repositories\\DetailRepository.cs",
+              "RelativeDocumentMoniker": "Facturacion\\data\\Repositories\\DetailRepository.cs",
+              "ToolTip": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\Repositories\\DetailRepository.cs",
+              "RelativeToolTip": "Facturacion\\data\\Repositories\\DetailRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T23:41:08.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Facturacion\\data\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Facturacion\\data\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwB8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T04:12:45.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ClientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\Repositories\\ClientRepository.cs",
+              "RelativeDocumentMoniker": "Facturacion\\data\\Repositories\\ClientRepository.cs",
+              "ToolTip": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\Repositories\\ClientRepository.cs",
+              "RelativeToolTip": "Facturacion\\data\\Repositories\\ClientRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwCYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T13:53:52.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Facturacion.AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\obj\\Debug\\net8.0\\Facturacion.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Facturacion\\obj\\Debug\\net8.0\\Facturacion.AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\obj\\Debug\\net8.0\\Facturacion.AssemblyInfo.cs",
+              "RelativeToolTip": "Facturacion\\obj\\Debug\\net8.0\\Facturacion.AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T19:52:42.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DataHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\Utilities\\DataHelper.cs",
+              "RelativeDocumentMoniker": "Facturacion\\data\\Utilities\\DataHelper.cs",
+              "ToolTip": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\Utilities\\DataHelper.cs",
+              "RelativeToolTip": "Facturacion\\data\\Utilities\\DataHelper.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T03:00:14.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IClientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\interfaces\\IClientRepository.cs",
+              "RelativeDocumentMoniker": "Facturacion\\data\\interfaces\\IClientRepository.cs",
+              "ToolTip": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\interfaces\\IClientRepository.cs",
+              "RelativeToolTip": "Facturacion\\data\\interfaces\\IClientRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T01:50:36.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Facturacion\\data\\interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "Facturacion\\data\\interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T04:07:34.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Detail.cs",
+              "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\domain\\Detail.cs",
+              "RelativeDocumentMoniker": "Facturacion\\domain\\Detail.cs",
+              "ToolTip": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\domain\\Detail.cs",
+              "RelativeToolTip": "Facturacion\\domain\\Detail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T03:21:13.699Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "PaymentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\Repositories\\PaymentRepository.cs",
+              "RelativeDocumentMoniker": "Facturacion\\data\\Repositories\\PaymentRepository.cs",
+              "ToolTip": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\Repositories\\PaymentRepository.cs",
+              "RelativeToolTip": "Facturacion\\data\\Repositories\\PaymentRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T05:15:20.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\domain\\Payment.cs",
+              "RelativeDocumentMoniker": "Facturacion\\domain\\Payment.cs",
+              "ToolTip": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\domain\\Payment.cs",
+              "RelativeToolTip": "Facturacion\\domain\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T00:55:33.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "IBillRepository.cs",
               "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\interfaces\\IBillRepository.cs",
               "RelativeDocumentMoniker": "Facturacion\\data\\interfaces\\IBillRepository.cs",
@@ -323,7 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ParameterSP.cs",
               "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\Utilities\\ParameterSP.cs",
               "RelativeDocumentMoniker": "Facturacion\\data\\Utilities\\ParameterSP.cs",
@@ -335,7 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\domain\\Client.cs",
               "RelativeDocumentMoniker": "Facturacion\\domain\\Client.cs",
@@ -347,7 +360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "IDetailRepository.cs",
               "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\interfaces\\IDetailRepository.cs",
               "RelativeDocumentMoniker": "Facturacion\\data\\interfaces\\IDetailRepository.cs",
@@ -359,7 +372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\domain\\Product.cs",
               "RelativeDocumentMoniker": "Facturacion\\domain\\Product.cs",
@@ -371,7 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "IPaymentRepository.cs",
               "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\data\\interfaces\\IPaymentRepository.cs",
               "RelativeDocumentMoniker": "Facturacion\\data\\interfaces\\IPaymentRepository.cs",
@@ -383,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Resources.resx",
               "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\Properties\\Resources.resx",
               "RelativeDocumentMoniker": "Facturacion\\Properties\\Resources.resx",
@@ -394,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Facturacion",
               "DocumentMoniker": "C:\\Users\\Valentino\\dev\\source\\repos\\Facturacion\\Facturacion\\Facturacion.csproj",
               "RelativeDocumentMoniker": "Facturacion\\Facturacion.csproj",
@@ -405,11 +418,11 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             }
           ]
         }
