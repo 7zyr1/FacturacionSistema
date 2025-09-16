@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Facturacion.domain
+{
+    public class Payment
+    {
+        public int Id { get; set; }
+        public required string Method { get; set; }
+    }
+}
