@@ -10,5 +10,6 @@ namespace Facturacion.data.interfaces
     public interface IPaymentRepository
     {
         Payment? GetPaymentById(int id);
+        List<Payment> GetAllPayments();
     }
 }

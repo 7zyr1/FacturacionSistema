@@ -11,8 +11,8 @@ namespace Facturacion.services
     {
         bool SaveBill(Bill bill);
         List<Bill> GetAllBills();
-        Bill GetBillById(int id);
-        bool Delete();
+        Bill? GetBillById(int id);
+        bool Delete(int id);
         bool Update();
     }
 }

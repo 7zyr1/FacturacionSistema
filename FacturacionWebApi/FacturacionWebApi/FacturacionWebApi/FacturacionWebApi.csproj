@@ -10,12 +10,8 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\FacturacionBack\Facturacion\Facturacion.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\..\..\FacturacionBack\Facturacion\Facturacion.csproj" />
+	</ItemGroup>
 
 </Project>

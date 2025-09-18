@@ -13,6 +13,10 @@ namespace Facturacion.data.Repositories
     public class DetailRepository : IDetailRepository
     {
         public required IProductRepository _productRepository { get; set; }
+        public DetailRepository(IProductRepository productRepository)
+        {
+            _productRepository = productRepository;
+        }
 
         //public bool DeleteDetail(int id)
         //{

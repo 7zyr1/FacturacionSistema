@@ -1,5 +1,6 @@
 ﻿using Facturacion.data.interfaces;
 using Facturacion.domain;
+using Facturacion.services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,20 +21,19 @@ namespace Facturacion.services
         {
             return _billRepository.SaveBill(bill);
         }
-
         public List<Bill> GetAllBills()
         {
             return _billRepository.GetAllBill();
         }
 
-        public Bill GetBillById(int id)
+        public Bill? GetBillById(int id)
         {
-            throw new NotImplementedException();
+            return _billRepository.GetBillById(id);
         }
 
-        public bool Delete()
+        public bool Delete(int id)
         {
-            throw new NotImplementedException();
+            return _billRepository.DeleteBill(id);
         }
 
         public bool Update()

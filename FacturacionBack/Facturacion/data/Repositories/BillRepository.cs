@@ -16,6 +16,12 @@ namespace Facturacion.data.Repositories
         public required IClientRepository _clientRepository;
         public required IPaymentRepository _paymentRepository;
         public required IDetailRepository _detailRepository;
+        public BillRepository(IClientRepository clientRepository, IPaymentRepository paymentRepository, IDetailRepository detailRepository)
+        {
+            _clientRepository = clientRepository;
+            _paymentRepository = paymentRepository;
+            _detailRepository = detailRepository;
+        }
         public bool SaveBill(Bill bill)
         {
             if (bill == null) throw new ArgumentNullException(nameof(bill));
@@ -83,7 +89,8 @@ namespace Facturacion.data.Repositories
                 t = cnn.BeginTransaction();
                 SqlCommand cmd = new SqlCommand("Sp_DELETE_BILL", cnn, t);
                 cmd.CommandType = CommandType.StoredProcedure;
-                aux = cmd.ExecuteNonQuery() == 1;
+                cmd.Parameters.AddWithValue("@id_factura", id);
+                aux = cmd.ExecuteNonQuery() > 0;
                 t.Commit();
             }
             catch (Exception)
@@ -128,7 +135,7 @@ namespace Facturacion.data.Repositories
             List<ParameterSP> parameters = new List<ParameterSP>();
             ParameterSP parameterSP = new ParameterSP()
             {
-                Name = "@id",
+                Name = "@id_factura",
                 Value = id
             };
             parameters.Add(parameterSP);
